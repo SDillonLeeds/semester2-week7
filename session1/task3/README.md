@@ -59,7 +59,7 @@
        wc -c task3
 
    Make a note of the number you see. Then edit `Makefile` so that the
-   `CFLAGS` variable includes a definition of the `NDEBUG` preprocessor
+   `CFLAGS` variable includes a definition of the `DNDEBUG` preprocessor
    symbol:
 
        CFLAGS = -DNDEBUG -Wall -Wextra -Werror
